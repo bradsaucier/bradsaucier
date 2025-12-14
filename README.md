@@ -1,4 +1,4 @@
-# [Bradley "Viper" Saucier](https://github.com/bradsaucier)  
+# [Bradley Saucier](https://github.com/bradsaucier)  
 Combat Controller (USAF, Ret.) | Building Mission-hardened Autonomous Systems
 
 > "If a plan isn't hardened by logic and grit, it's a liability."
