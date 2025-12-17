@@ -11,17 +11,6 @@
 
 > Operations leader with an engineering focus - verification-first delivery, measurable risk control, and disciplined execution in defense tech.
 
-## Table of Contents
-1. [Summary](#summary)
-2. [Current Focus](#current-focus)
-3. [Engineered Systems](#engineered-systems)
-4. [Leadership and Delivery](#leadership-and-delivery)
-5. [Skills](#skills)
-6. [Collaboration Guidelines](#collaboration-guidelines)
-7. [Operating Principles](#operating-principles)
-8. [Background](#background)
-9. [Education](#education)
-
 ---
 
 ## Summary
