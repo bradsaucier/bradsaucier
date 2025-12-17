@@ -1,4 +1,4 @@
-# Bradley Saucier
+# [Bradley Saucier](https://github.com/bradsaucier)
 **Deputy Operations Manager, Anduril Industries | Combat Controller (USAF, Ret.)**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0B0F14)
