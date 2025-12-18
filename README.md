@@ -6,87 +6,101 @@
   <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=101214&cacheSeconds=3600" />
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=101214&cacheSeconds=3600" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=101214&cacheSeconds=3600" />
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=333333&labelColor=101214&cacheSeconds=3600" />
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white&labelColor=101214&cacheSeconds=3600" />
 </p>
 
-> Operations leader with an engineering focus - verification-first delivery, measurable risk control, and disciplined execution in defense tech.
+Mission - Build and lead verification-first delivery via testable claims, auditable changes, and bounded risk.
 
----
+## BLUF
+I translate operational intent into engineering requirements and verified deliverables. Standard: deterministic behavior where feasible, explicit bounds where not. Proof signals must be validated in CI, tests, and artifacts.
 
-## Summary
-**Bottom Line Up Front (BLUF)** - I translate operational needs into engineering requirements and verified deliverables.
+## Capabilities
+Engineering
+1. Reliability under constraint - deterministic behavior where feasible, explicit bounds where not.
+2. Verification and CI - repeatable runs, automated gates, testable claims.
+3. Security evidence - scoped findings, traceable artifacts, verification notes.
 
-With 22 years managing risk and operations as a USAF Combat Controller, I bring disciplined communication, clear assumptions, and systematic risk management to software delivery. I design for deterministic behavior, auditable changes, and proof signals a reviewer can validate in CI, tests, and documentation.
+Stack (demonstrated across repos)
+1. Python, C++17, Java
+2. GitHub Actions
+3. Linux and container workflows where appropriate
 
----
+## Evidence locker
+Each entry is structured as a compact assurance case: mission, claim, evidence, verify.
 
-## Current Focus
-1. **Verification-first engineering** - Turn claims into checks: CI gates, tests, repeatable runs.
+### Computational Autonomy and Undecidability
+Repo - https://github.com/bradsaucier/autonomy-undecidability  
+[![quality-gate](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml/badge.svg)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml)
 
-2. **Autonomy and assurance** - Operationalize theoretical limits: bounded demos, explicit scope, reproducible artifacts.
+Mission
+Demonstrate why universal, unbounded autonomy verification is undecidable in general, and what bounded assurance can prove.
 
-3. **Security posture** - Evidence-based assessments: traceable reports, verification notes, scoped findings.
+Claim
+Full computational autonomy is a nontrivial semantic property; per Rice's Theorem, no algorithm can decide it for all programs. This repo makes the reduction pattern runnable and keeps bounds explicit.
 
----
+Evidence
+1. Start here: https://github.com/bradsaucier/autonomy-undecidability/blob/master/start_here.md
+2. Theory notes: https://github.com/bradsaucier/autonomy-undecidability/tree/master/theory
+3. Reproducible tests: https://github.com/bradsaucier/autonomy-undecidability/tree/master/tests
 
-## Engineered Systems
+Verify
+1. Execute the demo cases via the repo instructions.
+2. Validate scope constraints against the bounded model before drawing conclusions.
 
-### [Autonomy and Undecidability](https://github.com/bradsaucier/autonomy-undecidability)
-**Language:** `Python` - <a href="https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml"><img alt="Build: quality-gate" src="https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml/badge.svg?branch=master" height="20" /></a>
+### Artemis Security Evidence
+Repo - https://github.com/bradsaucier/artemis-security-evidence  
+[![docs-ci](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml/badge.svg)](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml)
 
-**Purpose:** Show why universal, unbounded autonomy verification is undecidable, and what bounded assurance can prove.
+Mission
+Documentation Body of Evidence (SNHU CS-305). Covers risk assessment, hardening practices, and verification artifacts.
 
-**Proof signals:**
-1. [Start here (context)](https://github.com/bradsaucier/autonomy-undecidability/blob/master/start_here.md)
-2. [Theory (reductions and definitions)](https://github.com/bradsaucier/autonomy-undecidability/tree/master/theory)
-3. [Tests (reproducible runs)](https://github.com/bradsaucier/autonomy-undecidability/tree/master/tests)
+Claim
+Security posture is only credible when scoped, reproducible, and artifact-backed. This repo prioritizes traceable reports and verification notes over narrative.
 
-### [Artemis Security Evidence](https://github.com/bradsaucier/artemis-security-evidence)
-**Language:** `Java` - <a href="https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml"><img alt="Build: docs-ci" src="https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml/badge.svg?branch=main" height="20" /></a>
+Evidence
+1. Verification notes: https://github.com/bradsaucier/artemis-security-evidence/blob/main/docs/VERIFICATION.md
+2. Reports: https://github.com/bradsaucier/artemis-security-evidence/tree/main/reports
+3. Evidence artifacts: https://github.com/bradsaucier/artemis-security-evidence/tree/main/evidence
 
-**Purpose:** Documentation evidence package for secure software practices and dependency risk management.
+Verify
+1. Read the primary report first (reports directory).
+2. Use the verification notes to reproduce or validate the evidence trail.
 
-**Proof signals:**
-1. [Verification notes](https://github.com/bradsaucier/artemis-security-evidence/blob/main/docs/VERIFICATION.md)
-2. [Reports](https://github.com/bradsaucier/artemis-security-evidence/tree/main/reports)
-3. [Evidence artifacts](https://github.com/bradsaucier/artemis-security-evidence/tree/main/evidence)
+### CS-300 Course Planner
+Repo - https://github.com/bradsaucier/CS300-CoursePlanner  
+[![ci](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml)
 
-### [CS300 Course Planner](https://github.com/bradsaucier/CS300-CoursePlanner)
-**Language:** `C++17` - <a href="https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml"><img alt="Build: CI" src="https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml/badge.svg?branch=main" height="20" /></a>
+Mission
+Deterministic course advising tool: ingest CSV, validate prerequisites, support fast lookup, print sorted catalog output.
 
-**Purpose:** Deterministic CSV ingestion, prerequisite validation, lookup, and sorted catalog output.
+Claim
+Defensive ingestion plus explicit data structure choices can produce predictable behavior and performance under constraint.
 
-**Proof signals:**
-1. [Complexity analysis](https://github.com/bradsaucier/CS300-CoursePlanner/blob/main/docs/complexity_analysis.md)
-2. [CI workflow](https://github.com/bradsaucier/CS300-CoursePlanner/blob/main/.github/workflows/ci.yml)
+Evidence
+1. Complexity and design rationale: https://github.com/bradsaucier/CS300-CoursePlanner/tree/main/docs
+2. Source implementation: https://github.com/bradsaucier/CS300-CoursePlanner/tree/main/src
 
----
+Verify
+1. Build from a clean environment using the repo instructions.
+2. Validate input handling and prerequisite checks using the provided sample data and docs.
 
-## Leadership and Delivery
-1. **Requirements translation** - Objectives into requirements, acceptance criteria, and verification methods.
+## Leadership and delivery doctrine
+1. Requirements translation - objectives into requirements, acceptance criteria, and verification methods.
+2. Delivery tempo - bounded risk with decision logs that survive turnover.
+3. Integration mindset - align hardware, software, and operator workflows to reduce failure modes.
+4. Standards - testable claims, reproducible results, auditable changes.
 
-2. **Delivery tempo** - Release discipline with bounded risk and clear decision logs.
+## Collaboration SOP
+Routing
+1. Repo-specific topics - open an issue in that repository.
+2. Cross-repo topics - open an issue in the repo that best matches the problem and link artifacts.
 
-3. **Integration** - Hardware, software, and operator workflows aligned to reduce failure modes.
-
-4. **Standards** - Testable claims, reproducible results, and auditable changes.
-
----
-
-## Skills
-| Category | Detail |
-| --- | --- |
-| **Languages** | `C++` `Python` `Java` `SQL` |
-| **Focus** | Reliability, security, verification, performance under constraint |
-| **Tools** | `Git` `Linux` `Docker` |
-| **Methods** | TDD where it fits, explicit invariants, profiling before optimization, disciplined documentation |
-
----
-
-## Collaboration Guidelines
-1. Repo-specific - open an issue in that repository.
-2. Cross-repo - open an issue in the repository that best matches the topic and link supporting artifacts.
-3. Preferred issue details - context, constraints, desired outcome, definition of done, evidence.
+Required issue content
+1. Context - system, environment, what changed.
+2. Constraints - time, safety, interfaces, policy, dependencies.
+3. Desired outcome - what success looks like.
+4. Definition of done - tests, checks, artifacts, acceptance criteria.
+5. Evidence - logs, repro steps, commands run, links.
 
 <details>
 <summary><strong>Copy-paste issue template</strong></summary>
@@ -122,25 +136,12 @@ Evidence:
 
 </details>
 
----
+## Background and boundaries
+I apply 22 years of USAF Combat Control operational risk management to software delivery and engineering leadership.
 
-## Operating Principles
-1. High signal-to-noise ratio improves outcomes - reduce complexity, remove noise, ship only what is defensible.
-2. Slow is smooth, smooth is fast - automation and tests prevent rework and regression.
-3. Risk is managed, not ignored - threat model, control blast radius, measure reliability.
-
----
-
-## Background
-USAF Combat Controller experience developed skills in high-pressure decision-making, clear communication, and systematic risk management. I apply that posture to software delivery, verification, and operations leadership.
-
-This is personal work and does not represent any employer or agency.
-
----
+This is personal work and does not represent any employer or agency. No sensitive or export-controlled technical data is intended for publication here.
 
 ## Education
-1. **B.S. Computer Science** (Candidate) - Southern New Hampshire University (STEM Project Management)
-2. **B.A.** - Columbia University
-3. **A.A.S.** - Community College of the Air Force
-
-
+1. B.S. Computer Science (Candidate) - Southern New Hampshire University (STEM Project Management)
+2. B.A. - Columbia University
+3. A.A.S. - Community College of the Air Force
