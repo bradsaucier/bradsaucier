@@ -1,5 +1,7 @@
-# [Bradley Saucier](https://github.com/bradsaucier)
-#### Deputy Operations Manager - Anduril Industries - USAF Combat Controller (Ret.)
+<div align="center">
+  <h1><a href="https://github.com/bradsaucier">Bradley Saucier</a></h1>
+  <h3>Deputy Operations Manager - Anduril Industries - USAF Combat Controller (Ret.)</h3>
+</div>
 
 <p align="center">
   <img alt="Python" height="28" src="https://img.shields.io/static/v1?label=Python&message=%20&style=for-the-badge&color=101214&labelColor=101214&logo=python&logoColor=3776AB&cacheSeconds=3600" />
@@ -13,7 +15,7 @@
 
 **Mission** - Build and lead verification-first engineering teams. Standard: testable claims, auditable changes, bounded risk, reproducible results.
 
-## Table of Contents
+## Quick Links
 1. [Bottom Line Up Front (BLUF)](#bottom-line-up-front-bluf)
 2. [Current Focus](#current-focus)
 3. [Evidence Locker](#evidence-locker)
@@ -22,6 +24,11 @@
 6. [Collaboration SOP](#collaboration-sop)
 7. [Background and Boundaries](#background-and-boundaries)
 8. [Education](#education)
+
+## Operational Brief
+I translate operational intent into engineering requirements and verified deliverables.
+My standard is runnable verification, explicit bounds, and traceable artifacts that survive turnover.
+If it is not testable or auditable, it is not a claim.
 
 ## Bottom Line Up Front (BLUF)
 I translate operational intent into engineering requirements and verified deliverables.
@@ -45,7 +52,17 @@ Output:
 Each entry is a compact assurance case (CAE/GSN style): Mission, Claim, Evidence, Verify.
 If a repo must remain private (academic policy or boundary control), evidence is mirrored as sanitized docs in a public proxy repo and linked here.
 
-### Computational Autonomy and Undecidability
+### Index
+| Entry | Repo | Primary verification signal |
+| --- | --- | --- |
+| Computational Autonomy and Undecidability | bradsaucier/autonomy-undecidability | quality-gate workflow |
+| Artemis Security Evidence | bradsaucier/artemis-security-evidence | docs-ci workflow |
+| CS-300 Course Planner | bradsaucier/CS300-CoursePlanner | ci workflow |
+
+<details>
+<summary><strong>Computational Autonomy and Undecidability - expand</strong></summary>
+<br>
+
 **Repo**: [bradsaucier/autonomy-undecidability](https://github.com/bradsaucier/autonomy-undecidability)
 
 [![quality-gate](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml/badge.svg)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml)
@@ -66,7 +83,12 @@ Success criteria - repeatable from a clean environment using documented commands
 1. Execute the demo cases via the repo instructions.
 2. Validate scope constraints against the bounded model before drawing conclusions.
 
-### Artemis Security Evidence
+</details>
+
+<details>
+<summary><strong>Artemis Security Evidence - expand</strong></summary>
+<br>
+
 **Repo**: [bradsaucier/artemis-security-evidence](https://github.com/bradsaucier/artemis-security-evidence)
 
 [![docs-ci](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml/badge.svg)](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml)
@@ -87,7 +109,12 @@ Success criteria - repeatable from a clean environment using documented commands
 1. Read the primary report first (reports directory).
 2. Use the verification notes to reproduce or validate the evidence trail.
 
-### CS-300 Course Planner
+</details>
+
+<details>
+<summary><strong>CS-300 Course Planner - expand</strong></summary>
+<br>
+
 **Repo**: [bradsaucier/CS300-CoursePlanner](https://github.com/bradsaucier/CS300-CoursePlanner)
 
 [![ci](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml)
@@ -106,6 +133,8 @@ Defensive ingestion plus explicit data structure choices can produce predictable
 Success criteria - repeatable from a clean environment using documented commands and expected outputs.
 1. Build from a clean environment using the repo instructions.
 2. Validate input handling and prerequisite checks using the provided sample data and docs.
+
+</details>
 
 ## Capabilities
 **Engineering**
@@ -132,7 +161,8 @@ Quick start (copy-paste into an issue):
 "I need help with [X] in [repo]. What I tried: [Y]. Output/error: [Z]. Constraints: [time/safety/interfaces]. Success: [definition]."
 
 <details>
-<summary><strong>Routing, required issue content, and full template</strong></summary>
+<summary><strong>Routing, required issue content, and full template - expand</strong></summary>
+<br>
 
 **Routing**
 1. Repo-specific topics - open an issue in that repository.
@@ -176,7 +206,7 @@ Evidence:
 
 </details>
 
-## Background and boundaries
+## Background and Boundaries
 I apply 22 years of USAF Combat Control operational risk management to software delivery and engineering leadership.
 Core mapping: environment establishment, flow control under constraint, incident decisioning (OODA) translated into verification-first delivery.
 
