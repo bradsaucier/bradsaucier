@@ -3,19 +3,29 @@
   <h3>Deputy Operations Manager - Anduril Industries - USAF Combat Controller (Ret.)</h3>
 
   <p align="center">
-    <img alt="Python" height="28" src="https://img.shields.io/static/v1?label=Python&message=%20&style=for-the-badge&color=101214&labelColor=101214&logo=python&logoColor=3776AB&cacheSeconds=3600" />
-    <img alt="C++" height="28" src="https://img.shields.io/static/v1?label=C%2B%2B&message=%20&style=for-the-badge&color=101214&labelColor=101214&logo=c%2B%2B&logoColor=00599C&cacheSeconds=3600" />
-    <img alt="Java" height="28" src="https://img.shields.io/static/v1?label=Java&message=%20&style=for-the-badge&color=101214&labelColor=101214&logo=openjdk&logoColor=ED8B00&cacheSeconds=3600" />
-    <img alt="Docker" height="28" src="https://img.shields.io/static/v1?label=Docker&message=%20&style=for-the-badge&color=101214&labelColor=101214&logo=docker&logoColor=2496ED&cacheSeconds=3600" />
-    <img alt="Linux" height="28" src="https://img.shields.io/static/v1?label=Linux&message=%20&style=for-the-badge&color=101214&labelColor=101214&logo=linux&logoColor=FCC624&cacheSeconds=3600" />
+    <img alt="Python" height="28" src="https://img.shields.io/static/v1?label=&message=Python&color=101214&logo=python&logoColor=3776AB&cacheSeconds=3600" />
+    <img alt="C++" height="28" src="https://img.shields.io/static/v1?label=&message=C%2B%2B&color=101214&logo=c%2B%2B&logoColor=00599C&cacheSeconds=3600" />
+    <img alt="Java" height="28" src="https://img.shields.io/static/v1?label=&message=Java&color=101214&logo=openjdk&logoColor=ED8B00&cacheSeconds=3600" />
+    <img alt="Docker" height="28" src="https://img.shields.io/static/v1?label=&message=Docker&color=101214&logo=docker&logoColor=2496ED&cacheSeconds=3600" />
+    <img alt="Linux" height="28" src="https://img.shields.io/static/v1?label=&message=Linux&color=101214&logo=linux&logoColor=FCC624&cacheSeconds=3600" />
   </p>
 </div>
 
 > **Mission**: Build and lead verification-first engineering teams. Standard: testable claims, auditable changes, bounded risk, reproducible results.
 
+```text
+IDENTITY: Bradley Saucier
+ROLE: Deputy Operations Manager - Anduril Industries
+BACKGROUND: USAF Combat Controller (Ret.)
+OPERATING STANDARD: Deterministic where feasible - explicit bounds, failure modes, and risk envelopes where not
+VERIFICATION SIGNAL: CI, tests, and traceable artifacts
+```
+
 ---
 
-**Quick Links**: [BLUF](#bottom-line-up-front-bluf) | [Current Focus](#current-focus) | [Evidence Locker](#evidence-locker) | [Capabilities](#capabilities) | [Doctrine](#leadership-and-delivery-doctrine) | [Collaboration SOP](#collaboration-sop) | [Background](#background-and-boundaries) | [Education](#education)
+| [BLUF](#bottom-line-up-front-bluf) | [Current Focus](#current-focus) | [Evidence Locker](#evidence-locker) | [Capabilities](#capabilities) |
+| --- | --- | --- | --- |
+| [Doctrine](#leadership-and-delivery-doctrine) | [Collaboration SOP](#collaboration-sop) | [Background](#background-and-boundaries) | [Education](#education) |
 
 ---
 
@@ -61,6 +71,8 @@ I translate operational intent into engineering requirements and verified delive
 **Repo**: [bradsaucier/autonomy-undecidability](https://github.com/bradsaucier/autonomy-undecidability)  
 [![quality-gate](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml/badge.svg)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml)
 
+**Signal**: quality-gate workflow
+
 #### Mission
 Demonstrate why universal, unbounded autonomy verification is undecidable in general, and what bounded assurance can prove.
 
@@ -86,6 +98,8 @@ Success criteria - repeatable from a clean environment using documented commands
 **Repo**: [bradsaucier/artemis-security-evidence](https://github.com/bradsaucier/artemis-security-evidence)  
 [![docs-ci](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml/badge.svg)](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml)
 
+**Signal**: docs-ci workflow
+
 #### Mission
 Documentation Body of Evidence (SNHU CS-305). Covers risk assessment, hardening practices, and verification artifacts.
 
@@ -110,6 +124,8 @@ Success criteria - repeatable from a clean environment using documented commands
 
 **Repo**: [bradsaucier/CS300-CoursePlanner](https://github.com/bradsaucier/CS300-CoursePlanner)  
 [![ci](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml)
+
+**Signal**: ci workflow
 
 #### Mission
 Deterministic course advising tool: ingest CSV, validate prerequisites, support fast lookup, print sorted catalog output.
@@ -150,7 +166,7 @@ Where applicable, repos include explicit constraints (time, memory, failure mode
 
 Quick start (copy-paste into an issue):
 ```text
-I need help with [X] in [repo]. What I tried: [Y]. Output/error: [Z]. Constraints: [time/safety/interfaces]. Success: [definition].
+I need help with [X] in [repo]. What I tried: [Y]. Output/errors: [paste]. Constraints: [time/safety/interfaces]. Success: [definition].
 ```
 
 <details>
