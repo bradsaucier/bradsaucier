@@ -38,6 +38,13 @@ VERIFICATION SIGNAL: CI status and quality gates
                    traceable artifacts
 ```
 
+CI STATUS:
+[![quality-gate](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml/badge.svg)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml)
+[![docs-ci](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml/badge.svg)](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml)
+[![ci](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml)
+
+---
+
 ## Bottom Line Up Front (BLUF)
 
 I translate operational intent into engineering requirements and verified deliverables. If it is not testable or auditable, it is not a claim.
@@ -52,18 +59,15 @@ Output: Traceable requirements, automated verification gates, documented risk en
 
 ## Current Focus
 
-1. Publishing repeatable assurance-case templates across repos (claims, evidence trails, verification steps).
-2. Strengthening CI gates that survive turnover (assumptions, decision logs, reproducible runs).
-3. Advancing formal methods and software security through applied coursework artifacts.
+1. Publishing repeatable assurance-case templates (claims, evidence trails, verification steps) - see autonomy-undecidability and artemis-security-evidence.
+2. Strengthening CI gates that survive turnover (assumptions, decision logs, reproducible runs) - see autonomy-undecidability quality-gate patterns.
+3. Advancing formal methods and software security through applied coursework artifacts - see Evidence Locker entries.
 
 ---
 
 ## Evidence Locker
 
-| Field | Definition |
-| --- | --- |
-| Pattern | Compact assurance case (CAE/GSN style): Mission, Claim, Evidence, Verify. |
-| Constraint | If a repo must remain private, evidence is mirrored as sanitized docs in a public proxy repo and linked here. |
+Each entry follows a compact assurance-case structure (CAE/GSN style): Mission, Claim, Evidence, Verify. If a repo must remain private, evidence is mirrored as sanitized docs in a public proxy repo and linked here.
 
 ### Status Board
 
@@ -77,18 +81,14 @@ Output: Traceable requirements, automated verification gates, documented risk en
 
 ## Capabilities
 
-| Capability | Engineering standard | Technical stack |
-| --- | --- | --- |
-| Reliability under constraint | Deterministic behavior where feasible; explicit bounds and failure modes where not. | Python, C++17, Java |
-| Verification and CI | Repeatable runs, automated gates, evidence trails. | GitHub Actions |
-| Security evidence | Scoped claims, traceable artifacts. | Linux-first workflows |
+Stack: Python, C++17, Java. Infrastructure: Linux-first, GitHub Actions CI. Standard: deterministic behavior where feasible; otherwise explicit bounds, failure modes, and risk envelopes.
 
 ---
 
 ## Leadership and Delivery Doctrine
 
 1. Requirements translation - Objectives into requirements, acceptance criteria, and verification methods.
-2. Risk bounded delivery - Define scope up front; document assumptions; ship within an explicit risk envelope.
+2. Risk-bounded delivery - Define scope up front; document assumptions; ship within an explicit risk envelope.
 3. Decision logs - Capture the why, not just the what; changes must survive turnover and audit.
 4. Integration mindset - Hardware, software, and operator workflows are one system.
 5. Standards - Testable claims, reproducible results, auditable changes.
@@ -96,6 +96,8 @@ Output: Traceable requirements, automated verification gates, documented risk en
 ---
 
 ## Collaboration SOP
+
+When requesting assistance from me or collaborating on an issue, use this format.
 
 ```text
 I need help with [X] in [repo]. What I tried: [Y]. Output/errors: [paste].
@@ -106,7 +108,7 @@ Constraints: [time/safety/interfaces]. Success: [definition].
 
 ## Background and Boundaries
 
-I apply 22 years of USAF Combat Control operational risk management to software delivery and engineering leadership. This is personal work and does not represent any employer or agency. No proprietary, classified, sensitive, or export-controlled (ITAR or EAR) technical data is intended for publication here.
+I apply 22 years of USAF Combat Control operational risk management to software delivery and engineering leadership. The Evidence Locker demonstrates this methodology applied to software verification. This is personal work and does not represent any employer or agency. No proprietary, classified, sensitive, or export-controlled (ITAR or EAR) technical data is intended for publication here.
 
 ---
 
