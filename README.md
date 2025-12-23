@@ -38,13 +38,6 @@ VERIFICATION SIGNAL: CI status and quality gates
                    traceable artifacts
 ```
 
-CI STATUS:
-[![quality-gate](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml/badge.svg)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml)
-[![docs-ci](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml/badge.svg)](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml)
-[![ci](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml/badge.svg)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml)
-
----
-
 ## Bottom Line Up Front (BLUF)
 
 I translate operational intent into engineering requirements and verified deliverables. If it is not testable or auditable, it is not a claim.
