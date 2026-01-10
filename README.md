@@ -60,8 +60,10 @@ SIGNALS  : CI status and quality gates
 
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
-## >_ Bottom Line Up Front (BLUF)
+<a id="bottom-line-up-front-bluf"></a>
 
+
+## >_ Bottom Line Up Front (BLUF)
 > [!IMPORTANT]
 > **BOTTOM LINE UP FRONT**
 > I translate operational intent into engineering requirements and verified deliverables. If it is not testable or auditable, it is not a claim.
@@ -86,8 +88,10 @@ SIGNALS  : CI status and quality gates
 
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
-## >_ Evidence Locker
+<a id="evidence-locker"></a>
 
+
+## >_ Evidence Locker
 Each entry follows a compact assurance-case structure (CAE/GSN style): claim, context, evidence, verification path. Where supporting material cannot be published in full, it is mirrored as sanitized documentation in a public proxy repo and linked here.
 
 ### Evidence Format
@@ -111,8 +115,11 @@ RISK        : Explicit envelope, failure modes, residual risk.
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
 
-## >_ Capabilities
+<a id="capabilities"></a>
 
+
+
+## >_ Capabilities
 | Domain | Capability |
 | --- | --- |
 | Engineering | Mission-critical delivery, secure software practices, supply chain hygiene |
@@ -122,8 +129,11 @@ RISK        : Explicit envelope, failure modes, residual risk.
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
 
-## >_ Doctrine
+<a id="doctrine"></a>
 
+
+
+## >_ Doctrine
 1. Requirements translation - objectives into requirements, acceptance criteria, verification methods.
 2. Risk-bounded delivery - define scope up front; document assumptions; ship within an explicit risk envelope.
 3. Decision logs - capture the why, not just the what; changes must survive turnover and audit.
@@ -132,8 +142,10 @@ RISK        : Explicit envelope, failure modes, residual risk.
 
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
-## >_ Intake Format
+<a id="intake-format"></a>
 
+
+## >_ Intake Format
 <details>
   <summary><strong>>> EXPAND INTAKE PROTOCOL <<</strong></summary>
 
@@ -160,14 +172,19 @@ RISK        : Explicit envelope, failure modes, residual risk.
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
 
-## >_ Background
+<a id="background"></a>
 
+
+
+## >_ Background
 I apply 22 years of USAF Combat Control operational risk management to engineering work: explicit assumptions, clear acceptance criteria, and verification gates that hold up under audit. This profile focuses on personal methodology and public academic artifacts.
 
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
-## >_ Education
+<a id="education"></a>
 
+
+## >_ Education
 | Program | Institution |
 | --- | --- |
 | B.S. Computer Science (Project Management for STEM concentration) - in progress | Southern New Hampshire University |
@@ -177,21 +194,26 @@ I apply 22 years of USAF Combat Control operational risk management to engineeri
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
 
-## >_ Contact
+<a id="contact"></a>
 
+
+
+## >_ Contact
 Primary: GitHub - https://github.com/bradsaucier
 Portfolio: https://viper1.me/
 Preferred: open a GitHub Issue or Discussion in the relevant repo and follow the Intake Format above.
 
 **// SYSTEM CHECKPOINT // ------------------------------------------------**
 
-## >_ Boundaries
+<a id="boundaries"></a>
 
+
+## >_ Boundaries
 > [!CAUTION]
 > **BOUNDARIES**
 > This profile reflects personal methodology and academic work only. It does not represent the views, policies, or proprietary methods of any current or former employer. No classified, controlled unclassified, or proprietary information is present. No export-controlled (ITAR or EAR) technical data is intended for publication here.
 
 ```text
 // END TRANSMISSION
-// VERIFICATION HASH: 0bc49d437e9f7e62b09d5f1d98760d951cd8398a34571dd3b7bfe8fbb987d75a
+// VERIFICATION HASH: 90ba5e401f43634423d8a62e19165a6f1c04ed8e6b500e4fc238b8789ebd4f37
 ```
