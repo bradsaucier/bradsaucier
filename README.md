@@ -8,11 +8,6 @@ OWNER: SAUCIER, BRADLEY // VIPER1
   <h3>Deputy Operations Manager - Anduril Industries - USAF Combat Controller (Ret.)</h3>
 
   <p>
-    <a href="https://github.com/bradsaucier"><strong>GitHub</strong></a> |
-    <a href="https://viper1.me/"><strong>Portfolio</strong></a>
-  </p>
-
-  <p>
     <a href="https://github.com/bradsaucier">
       <img alt="GitHub" src="https://img.shields.io/badge/GitHub-bradsaucier-181717?style=for-the-badge&logo=github&logoColor=white" height="28" />
     </a>
