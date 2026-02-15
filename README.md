@@ -48,6 +48,16 @@ OWNER: SAUCIER, BRADLEY // VIPER1
           <img alt="CS300-CoursePlanner ci" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/CS300-CoursePlanner/ci.yml?label=ci&style=for-the-badge" />
         </a>
       </td>
+      <td align="center">
+        <a href="https://github.com/bradsaucier/test-discipline/actions/workflows/maven-build.yml">
+          <img alt="test-discipline maven-build" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/test-discipline/maven-build.yml?label=maven-build&style=for-the-badge" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/bradsaucier/cct-ui-evidence-locker/actions/workflows/links.yml">
+          <img alt="cct-ui-evidence-locker links" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/cct-ui-evidence-locker/links.yml?label=links&style=for-the-badge" />
+        </a>
+      </td>
     </tr>
   </table>
 </div>
@@ -138,8 +148,8 @@ RISK        : Explicit envelope, failure modes, residual risk.
 | [bradsaucier/autonomy-undecidability](https://github.com/bradsaucier/autonomy-undecidability) | Repeatable assurance-case templates for computational autonomy | [![quality-gate](https://img.shields.io/github/actions/workflow/status/bradsaucier/autonomy-undecidability/quality_gate.yml?label=quality-gate&style=flat-square)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml) |
 | [bradsaucier/artemis-security-evidence](https://github.com/bradsaucier/artemis-security-evidence) | Security evidence trails and verification steps | [![docs-ci](https://img.shields.io/github/actions/workflow/status/bradsaucier/artemis-security-evidence/docs-ci.yml?label=docs-ci&style=flat-square)](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml) |
 | [bradsaucier/CS300-CoursePlanner](https://github.com/bradsaucier/CS300-CoursePlanner) | Algorithmic planning structures (academic artifact) | [![ci](https://img.shields.io/github/actions/workflow/status/bradsaucier/CS300-CoursePlanner/ci.yml?label=ci&style=flat-square)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml) |
-| [bradsaucier/test-discipline](https://github.com/bradsaucier/test-discipline) | Verification-first portfolio: deterministic services, JUnit suites, JaCoCo coverage enforcement (CS-320) |  |
-| [bradsaucier/cct-ui-evidence-locker](https://github.com/bradsaucier/cct-ui-evidence-locker) | UI-UX evidence locker: traceability, risk register, design tokens, accessibility posture (CS-319) | [![links](https://github.com/bradsaucier/cct-ui-evidence-locker/actions/workflows/links.yml/badge.svg)](https://github.com/bradsaucier/cct-ui-evidence-locker/actions/workflows/links.yml) |
+| [bradsaucier/test-discipline](https://github.com/bradsaucier/test-discipline) | Verification-first portfolio: deterministic services, JUnit suites, JaCoCo coverage enforcement (CS-320) | [![Test Discipline](https://img.shields.io/github/actions/workflow/status/bradsaucier/test-discipline/maven-build.yml?label=maven-build&style=flat-square)](https://github.com/bradsaucier/test-discipline/actions/workflows/maven-build.yml) |
+| [bradsaucier/cct-ui-evidence-locker](https://github.com/bradsaucier/cct-ui-evidence-locker) | Defense-grade UI-UX evidence locker: traceability, risk register, design tokens, accessibility posture (CS-319) | [![links](https://img.shields.io/github/actions/workflow/status/bradsaucier/cct-ui-evidence-locker/links.yml?label=links&style=flat-square)](https://github.com/bradsaucier/cct-ui-evidence-locker/actions/workflows/links.yml) |
 
 ---
 
@@ -149,8 +159,6 @@ RISK        : Explicit envelope, failure modes, residual risk.
 | Domain | Capability |
 |:--|:--|
 | Engineering | Mission-critical delivery, secure software practices, supply chain hygiene |
-| Verification | Test design (unit and integration), deterministic seams, coverage enforcement, CI gates, regression discipline |
-| UI-UX | Constraint-first interface design, traceability from requirements to screens, accessibility posture, design tokens |
 | Tooling | C++20, Python, Java, SQL, GitHub Actions, CMake, Maven, Docker, Linux |
 | Operating stance | Explicit bounds, explicit failure modes, decision logs (ADR), reproducible builds |
 
