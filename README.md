@@ -1,8 +1,3 @@
-```text
-CLASSIFICATION: UNCLASSIFIED // PUBLIC RELEASE
-OWNER: SAUCIER, BRADLEY // VIPER1
-```
-
 <div align="center">
   <h1><a href="https://viper1.me/">Bradley Saucier</a></h1>
   <p><strong>>_ Verification-first engineering - testable claims, auditable changes, bounded risk.</strong></p>
@@ -16,51 +11,14 @@ OWNER: SAUCIER, BRADLEY // VIPER1
       <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-viper1.me-333333?style=for-the-badge" height="28" />
     </a>
   </p>
-
-  <table>
-    <tr>
-      <td align="center"><a href="#bluf"><strong>BLUF</strong></a></td>
-      <td align="center"><a href="#identity"><strong>IDENTITY</strong></a></td>
-      <td align="center"><a href="#focus"><strong>FOCUS</strong></a></td>
-      <td align="center"><a href="#evidence"><strong>EVIDENCE</strong></a></td>
-      <td align="center"><a href="#capabilities"><strong>CAPABILITIES</strong></a></td>
-      <td align="center"><a href="#doctrine"><strong>DOCTRINE</strong></a></td>
-      <td align="center"><a href="#intake"><strong>INTAKE</strong></a></td>
-      <td align="center"><a href="#contact"><strong>CONTACT</strong></a></td>
-      <td align="center"><a href="#boundaries"><strong>BOUNDARIES</strong></a></td>
-    </tr>
-  </table>
-
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml">
-          <img alt="autonomy-undecidability quality-gate" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/autonomy-undecidability/quality_gate.yml?label=quality-gate&style=for-the-badge" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml">
-          <img alt="artemis-security-evidence docs-ci" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/artemis-security-evidence/docs-ci.yml?label=docs-ci&style=for-the-badge" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml">
-          <img alt="CS300-CoursePlanner ci" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/CS300-CoursePlanner/ci.yml?label=ci&style=for-the-badge" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/bradsaucier/test-discipline/actions/workflows/maven-build.yml">
-          <img alt="test-discipline maven-build" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/test-discipline/maven-build.yml?label=maven-build&style=for-the-badge" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/bradsaucier/cct-ui-evidence-locker/actions/workflows/links.yml">
-          <img alt="cct-ui-evidence-locker links" src="https://img.shields.io/github/actions/workflow/status/bradsaucier/cct-ui-evidence-locker/links.yml?label=links&style=for-the-badge" />
-        </a>
-      </td>
-    </tr>
-  </table>
 </div>
+
+```text
+CLASSIFICATION: UNCLASSIFIED // PUBLIC RELEASE
+OWNER: SAUCIER, BRADLEY // VIPER1
+```
+
+
 
 ---
 
@@ -68,18 +26,12 @@ OWNER: SAUCIER, BRADLEY // VIPER1
 ## Bottom Line Up Front (BLUF)
 
 > [!IMPORTANT]
-> **BOTTOM LINE UP FRONT**
 > I translate operational intent into engineering requirements and verified deliverables. If it is not testable or auditable, it is not a claim.
 >
-> Standard
-> 1. Deterministic behavior where feasible.
-> 2. Where not feasible - explicit bounds, failure modes, and risk envelopes.
+> **Standard** - Deterministic behavior where feasible. Where not feasible - explicit bounds, failure modes, risk envelopes.
 >
-> Output
-> 1. Traceable requirements.
-> 2. CI quality gates.
-> 3. Documented risk envelopes.
-> 4. Reproducible builds.
+> **Output** - Traceable requirements, CI quality gates, documented risk envelopes, reproducible builds.
+
 
 ---
 
@@ -145,11 +97,11 @@ RISK        : Explicit envelope, failure modes, residual risk.
 
 | Project | Focus | Gate |
 |:--|:--|:--|
-| [bradsaucier/autonomy-undecidability](https://github.com/bradsaucier/autonomy-undecidability) | Repeatable assurance-case templates for computational autonomy | [![gate](https://img.shields.io/github/actions/workflow/status/bradsaucier/autonomy-undecidability/quality_gate.yml?label=gate&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml) |
+| [bradsaucier/autonomy-undecidability](https://github.com/bradsaucier/autonomy-undecidability) | Assurance-case templates for computational autonomy | [![gate](https://img.shields.io/github/actions/workflow/status/bradsaucier/autonomy-undecidability/quality_gate.yml?label=gate&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/autonomy-undecidability/actions/workflows/quality_gate.yml) |
 | [bradsaucier/artemis-security-evidence](https://github.com/bradsaucier/artemis-security-evidence) | Security evidence trails and verification steps | [![docs](https://img.shields.io/github/actions/workflow/status/bradsaucier/artemis-security-evidence/docs-ci.yml?label=docs&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/artemis-security-evidence/actions/workflows/docs-ci.yml) |
-| [bradsaucier/CS300-CoursePlanner](https://github.com/bradsaucier/CS300-CoursePlanner) | Algorithmic planning structures - academic artifact | [![ci](https://img.shields.io/github/actions/workflow/status/bradsaucier/CS300-CoursePlanner/ci.yml?label=ci&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml) |
-| [bradsaucier/test-discipline](https://github.com/bradsaucier/test-discipline) | Verification-first portfolio - deterministic services, JUnit suites, JaCoCo enforcement - CS-320 | [![build](https://img.shields.io/github/actions/workflow/status/bradsaucier/test-discipline/maven-build.yml?label=build&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/test-discipline/actions/workflows/maven-build.yml) |
-| [bradsaucier/cct-ui-evidence-locker](https://github.com/bradsaucier/cct-ui-evidence-locker) | Defense-grade UI-UX evidence locker - traceability, risk register, design tokens, accessibility posture - CS-319 | [![links](https://img.shields.io/github/actions/workflow/status/bradsaucier/cct-ui-evidence-locker/links.yml?label=links&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/cct-ui-evidence-locker/actions/workflows/links.yml) |
+| [bradsaucier/CS300-CoursePlanner](https://github.com/bradsaucier/CS300-CoursePlanner) | Algorithmic planning structures (academic artifact) | [![ci](https://img.shields.io/github/actions/workflow/status/bradsaucier/CS300-CoursePlanner/ci.yml?label=ci&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/CS300-CoursePlanner/actions/workflows/ci.yml) |
+| [bradsaucier/test-discipline](https://github.com/bradsaucier/test-discipline) | Deterministic services, JUnit suites, JaCoCo enforcement (CS-320) | [![build](https://img.shields.io/github/actions/workflow/status/bradsaucier/test-discipline/maven-build.yml?label=build&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/test-discipline/actions/workflows/maven-build.yml) |
+| [bradsaucier/cct-ui-evidence-locker](https://github.com/bradsaucier/cct-ui-evidence-locker) | UI-UX evidence locker: traceability, risk register, design tokens (CS-319) | [![links](https://img.shields.io/github/actions/workflow/status/bradsaucier/cct-ui-evidence-locker/links.yml?label=links&style=flat-square&logo=githubactions&logoColor=white)](https://github.com/bradsaucier/cct-ui-evidence-locker/actions/workflows/links.yml) |
 
 ---
 
@@ -159,29 +111,20 @@ RISK        : Explicit envelope, failure modes, residual risk.
 | Domain | Capability |
 |:--|:--|
 | Engineering | Mission-critical delivery, secure software practices, supply chain hygiene |
+| Verification | Unit and integration testing, deterministic seams, CI gate enforcement, regression discipline |
+| UI-UX | Constraint-first interface design, traceability from requirements to screens, accessibility posture |
 | Tooling | C++20, Python, Java, SQL, GitHub Actions, CMake, Maven, Docker, Linux |
 | Operating stance | Explicit bounds, explicit failure modes, decision logs (ADR), reproducible builds |
-
-<div align="center">
-
-| Languages | Tooling |
-|:--:|:--:|
-| <img alt="Python" height="24" src="https://img.shields.io/static/v1?label=&message=Python&color=101214&logo=python&logoColor=3776AB&style=flat-square" /> <img alt="C++20" height="24" src="https://img.shields.io/static/v1?label=&message=C%2B%2B20&color=101214&logo=c%2B%2B&logoColor=00599C&style=flat-square" /> <img alt="Java" height="24" src="https://img.shields.io/static/v1?label=&message=Java&color=101214&logo=openjdk&logoColor=ED8B00&style=flat-square" /> <img alt="SQL" height="24" src="https://img.shields.io/static/v1?label=&message=SQL&color=101214&logo=mysql&logoColor=4479A1&style=flat-square" /> | <img alt="Docker" height="24" src="https://img.shields.io/static/v1?label=&message=Docker&color=101214&logo=docker&logoColor=2496ED&style=flat-square" /> <img alt="Linux" height="24" src="https://img.shields.io/static/v1?label=&message=Linux&color=101214&logo=linux&logoColor=FCC624&style=flat-square" /> <img alt="GitHub Actions" height="24" src="https://img.shields.io/static/v1?label=&message=Actions&color=101214&logo=githubactions&logoColor=2088FF&style=flat-square" /> <img alt="CMake" height="24" src="https://img.shields.io/static/v1?label=&message=CMake&color=101214&logo=cmake&logoColor=064F8C&style=flat-square" /> <img alt="Maven" height="24" src="https://img.shields.io/static/v1?label=&message=Maven&color=101214&logo=apachemaven&logoColor=C71A36&style=flat-square" /> |
-
-</div>
 
 ---
 
 <a id="doctrine"></a>
 ## Doctrine
 
-| Principle | Description |
-|:--|:--|
-| Requirements translation | Objectives into requirements, acceptance criteria, verification methods |
-| Risk-bounded delivery | Define scope up front; document assumptions; ship within an explicit risk envelope |
-| Decision logs | Capture the why, not just the what; changes must survive turnover and audit |
-| Simplicity under pressure | Fewer moving parts, fewer failure modes; hardware, software, operator workflows are one system |
-| Standards | Testable claims, reproducible results, auditable changes |
+1. **Requirements translation** - Objectives into requirements, acceptance criteria, verification methods.
+2. **Risk-bounded delivery** - Define scope up front; document assumptions; ship within an explicit risk envelope.
+3. **Decision logs** - Capture the why, not just the what; changes must survive turnover and audit.
+4. **Simplicity under pressure** - Fewer moving parts, fewer failure modes; hardware, software, operator workflows are one system.
 
 ---
 
@@ -239,11 +182,10 @@ I apply operational risk management to engineering work: explicit assumptions, c
 <a id="contact"></a>
 ## Contact
 
-| Method | Link |
+| Method | Detail |
 |:--|:--|
-| GitHub | https://github.com/bradsaucier |
-| Portfolio | https://viper1.me/ |
 | Preferred | Open an Issue or Discussion in the relevant repo and use the Intake Format above |
+| Web | https://viper1.me/ |
 
 ---
 
