@@ -1,7 +1,7 @@
 <div align="center">
   <h1><a href="https://viper1.me/">Bradley Saucier</a></h1>
   <p><strong>>_ Verification-first engineering - testable claims, auditable changes, bounded risk.</strong></p>
-  <p>Deputy Operations Manager - Anduril Industries - USAF Combat Controller (Ret.)</p>
+  <p>Business Operations Manager - Anduril Industries - USAF Combat Controller (Ret.)</p>
 
   <p>
     <a href="https://github.com/bradsaucier">
